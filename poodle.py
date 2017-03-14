@@ -1,10 +1,9 @@
 print("Welcome to our calculator!")
 
-X = int(input("Input a number: "))
-Y = int(input("Input another number: "))
+X = int(input("Input a number, Charlie~~~~ : "))
+Y = int(input("Input another number, Charlie~~~~: "))
 
 op = input("Input operation: ")
-print("g: " + str(g))
 
 if op == "+":
     z = X+Y
@@ -18,7 +17,7 @@ else:
             if op == "/":
                 z = X/Y
             else:
-                print("Wrong operation")
+                print("Wrong operation, Charlie~~~~")
                 z = 0
 """
 if op == "+":
