@@ -5,20 +5,21 @@ Y = int(input("Input another number, Charlie~~~~: "))
 
 op = input("Input operation: ")
 
-if op == "+":
-    z = X+Y
+if op == "-":
+    z = X-Y
 else:
-    if op == "-":
-        z = X-Y
+    if op == "+":
+        z = X+Y
     else:
-        if op == "*":
-            z = X*Y
+        if op == "/":
+            z = X/Y
         else:
-            if op == "/":
-                z = X/Y
+            if op == "*":
+                z = X*Y
             else:
-                print("Wrong operation, Charlie~~~~")
                 z = 0
+                print("Wrong operation!!!")
+                
 """
 if op == "+":
     z = X+Y
